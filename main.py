@@ -2,7 +2,6 @@ from operaciones.operaciones_basicas import sumar, restar
 from operaciones.operaciones_avanzadas import multiplicar, dividir
 from operaciones.utilidades import pedir_numeros, mostrar_menu
 
-
 def main():
     while True:
         mostrar_menu()
