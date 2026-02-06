@@ -2,6 +2,17 @@ from operaciones.operaciones_basicas import sumar, restar
 from operaciones.operaciones_avanzadas import multiplicar, dividir
 from operaciones.utilidades import pedir_numeros, mostrar_menu
 
+# operaciones_avanzadas.py
+
+def multiplicar(a, b):
+    return a * b
+
+
+def dividir(a, b):
+    if b == 0:
+        return "Error: no se puede dividir entre 0"
+    return a / b
+
 
 def main():
     while True:
